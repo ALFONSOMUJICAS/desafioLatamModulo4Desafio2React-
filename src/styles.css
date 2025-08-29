@@ -1,0 +1,20 @@
+/*
+Fecha: 2025-08-18 20:30:23
+Descripción: Estilos globales (body, estructura .app).
+Funcionalidad: Define tipografías, colores base y layout raíz; el resto se maneja con Bootstrap.
+Notas: Solo comentarios añadidos; no se alteró ninguna regla.
+*/
+/* Mantener sólo estilos globales del body y estructura básica de la app */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #111;
+}
+
+/* Estructura general */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
